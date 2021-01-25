@@ -1,5 +1,5 @@
-module "print-hello" {
+module "hello" {
   source = "./modules/null"
-  count  = var.count
-  num    = count.index 
+  count  = var.iterate
+  num    = count.index
 }

@@ -1,3 +1,3 @@
 output "multi-hello" {
-  value = module.print-hello.message
+  value = module.hello.*.message
 }
