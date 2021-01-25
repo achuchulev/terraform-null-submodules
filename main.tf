@@ -1,5 +1,5 @@
 module "print-hello" {
   source = "./modules/null"
-  count  = 2
+  count  = var.count
   num    = count.index 
 }
