@@ -1,4 +1,4 @@
 
-variable "count" {
+variable "iterate" {
   default = 3
 }
